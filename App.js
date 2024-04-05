@@ -31,7 +31,7 @@ const App = () => {
       </View>
       <View style={styles.titleContainer}>
         <Text style={styles.title}>Bethany's Pie Shop</Text>
-        <Text style={styles.slogan}></Text>
+        <Text style={styles.slogan}>The Greatest Pies in the World</Text>
       </View>
 
       <StatusBar style="light" translucent={false} />
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     flex: 3,
-    alignItelms: "center",
+    alignItems: "center",
   },
   title: {
     fontSize: 40,
